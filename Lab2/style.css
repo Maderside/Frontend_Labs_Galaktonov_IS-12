@@ -1,0 +1,140 @@
+/* Task 1 - creating a table */
+tr td{
+    min-width: 100px;
+    height: 20px;
+}
+
+tr.first-row td{
+    background-color: #068f8f;
+    color: whitesmoke;
+}
+tr.second-row td{
+    background-color: #f5f506;
+}
+
+tr.first-row td:hover{
+    background-color: #f5f506;
+}
+tr.second-row td:hover{
+    background-color: #068f8f;
+}
+
+
+
+/* Task 2 - Creating a figure */
+.figure-transform, .figure-position{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* Figure using position */
+.figure-position .shell{
+    width: 214px;
+    height: 406px;
+    border: 3px solid black;
+    border-radius: 10%;
+    background-color: #d6e3bc;
+
+    position: relative;
+    top: 20px;
+}
+
+.figure-position .screen{
+    width: 185px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 10%;
+    background-color: white;
+
+    position: relative;
+    left: 11px;
+    top: 10px;
+}
+
+.figure-position .time{
+    position: relative;
+    width: fit-content;
+
+    font-size: 40px;
+    left: 25%;
+    top: 70px;
+}
+
+.figure-position .keyboard{
+    width: 185px;
+    height: 150px;
+
+
+    position: relative;
+    left: 11px;
+    top: 20px;
+}
+
+.figure-position .button-row .button{
+    display: inline-block;
+
+    position: relative;
+    left: 8px;
+    top: 10px;
+    margin-left: 10px;
+}
+
+.figure-position .button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #3f3151;
+}
+
+/* Figure using transform */
+.figure-transform .shell{
+    width: 214px;
+    height: 406px;
+    border: 3px solid black;
+    border-radius: 10%;
+    background-color: #d6e3bc;
+
+    
+}
+
+.figure-transform .screen{
+    width: 185px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 10%;
+    background-color: white;
+
+    transform: translate(6.5%, 5%);
+}
+
+.figure-transform .time{
+    
+    width: fit-content;
+    font-size: 40px;
+
+    transform: translate(50%, 150%);
+}
+
+.figure-transform .keyboard{
+    width: 185px;
+    height: 150px;
+   
+    transform: translate(10.5%, 15%);
+}
+
+.figure-transform .button-row .button{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.figure-transform .button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #3f3151;
+}
