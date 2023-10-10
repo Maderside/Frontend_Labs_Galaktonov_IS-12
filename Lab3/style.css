@@ -1,0 +1,74 @@
+html,body, .float-property, .flex-property
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Creating a layout using float property*/
+.float-property #header-text{
+    min-height: 10%;
+    width: 100%;
+    background-color: #70a7df;
+    display: block;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.float-property #header-text *{    
+  text-align: center;
+  
+}
+
+.float-property #header-img{
+    height: 10%;
+    width: 100%;
+}
+.float-property #header-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.float-property #content{
+    height: 100%;
+    width: 100%;
+    background-color: #93b071;
+}
+.float-property #content img{
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    float: left;
+}
+.float-property #content p{
+    width: 40%;
+    float: right;
+    
+}
+
+/* Creating a layout using flex property */
+.flex-property #header-text{
+    min-height: 10%;
+    background-color: #70a7df;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-property #header-text > *{
+    text-align: center;
+}
+
+.flex-property #header-img{
+    height: 10%;
+    width: 100%;
+}
+.flex-property #header-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.flex-property #content{
+    display: flex;
+    flex-direction: row;
+    background-color: #93b071;
+}
