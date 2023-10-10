@@ -68,7 +68,7 @@ html,body, .float-property, .flex-property
     object-fit: cover;
 }
 .flex-property #content{
-    height: 100%;
+    min-height: 80%;
     display: flex;
     flex-direction: row;
     background-color: #93b071;
