@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab5</title>
+</head>
+<body>
+    <form id="myForm" action="lab5.html" method="POST" style="width: 400px; float: left;">
+        1. ПІБ:<br>
+        <input type="text" name="PIB" value="">
+        <br>
+
+        2. Дата народження:<br>
+        <input type="text" name="brthDate" value="">
+        <br>
+
+        3. Адреса:<br>
+        <input type="text" name="city" value="">
+        <br>
+
+        4. E-Mail<br>
+        <input type="text" name="email" value="">
+        <br>
+
+        5. Телеграм<br>
+        <input type="text" name="telegram" value="">
+        <br>
+
+        <br>
+        <!-- <input type="hidden" name="hidden" value="ok"> -->
+        <input type="submit" value="отправить" name="Submit">
+    </form>
+
+</body>
+
+<!-- Block that contains result data -->
+<div id="result" style="width: 300px; float: left;">
+    <h3>Введені дані</h3>
+    <p></p>
+</div>
+
+<input type="color" name="color" id="color">
+<table id="myTable">
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td id="target">6
+        </td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+    </tr>
+</table>
+</html>
+<style>
+    table, th, td {
+    border: 1px solid;
+}
+th, td{
+    min-width: 30px;
+}
+table{
+    width: 300px;
+}
+input#color{
+    width: 300px;
+}
+</style>
+<script src="validation.js" defer></script>
+<script src="table.js" defer></script>
